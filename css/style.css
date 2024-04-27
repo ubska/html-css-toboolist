@@ -27,16 +27,22 @@ header {
 
 /* main */
 main {
+    /* background-color: #f6f8f9; */
     background-color: #f6f8f9;
 }
+
+
 
 #box {
     width: 600px;
     height: 700px;
     background-color: white;
-    margin: auto
+    padding: 30px 30px 30px 30px;
+    margin: auto;
 }
-
+.sc{
+    padding-left: 20px;
+}
 /* box-link */
 #link {
     width: auto;
@@ -86,6 +92,7 @@ h2::before{
         font-size: small;
         padding: 2px;
         color: white;
+        margin-left: 5px;
 }
 
 /* mark-ed-go-rec-mob-web-sal */
