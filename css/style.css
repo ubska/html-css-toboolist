@@ -63,3 +63,27 @@ main {
     background-color: white;
     border-color: #b4bbbf;
 }
+
+/* box-section-1 */
+h2::before{
+    content: "\25BC";
+}
+
+.done::before{
+    content: "✔";
+    color: green;
+}
+
+.mark{
+        border: 1px solid;
+        line-height: 50px;
+        border-radius: 9px;
+        border: none;
+        font-size: small;
+        padding: 2px;
+        color: white;
+}
+
+.mark, editoria{
+    background-color: #45abea;
+}
