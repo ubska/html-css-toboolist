@@ -24,3 +24,42 @@ header {
     font-size: 50px;
     vertical-align: middle;
 }
+
+/* main */
+main {
+    background-color: #f6f8f9;
+}
+
+#box {
+    width: 600px;
+    height: 700px;
+    background-color: white;
+    margin: auto
+}
+
+/* box-link */
+#link {
+    width: auto;
+    height: 50px;
+    border-bottom: 3px solid #f6f8f9;
+}
+
+.bt {
+    border: 1px solid;
+    line-height: 50px;
+    border-radius: 4px;
+    font-size: medium;
+    padding: 4px;
+}
+
+.bt-task {
+    color: white;
+    background-color: #47adf1;
+    border: none;
+}
+
+.bt-section {
+    color: #b4bbbf;
+    background-color: white;
+    border-color: #b4bbbf;
+}
