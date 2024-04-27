@@ -73,7 +73,11 @@ h2::before{
     content: "✔";
     color: green;
 }
-
+.undone::before{
+    content: "\2717";
+    color: red;
+}
+/* mark */
 .mark{
         border: 1px solid;
         line-height: 50px;
@@ -84,6 +88,27 @@ h2::before{
         color: white;
 }
 
-.mark, editoria{
+/* mark-ed-go-rec-mob-web-sal */
+.editoria{
     background-color: #45abea;
+}
+
+.goals{
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    background-color:#64c0a9 ;
+}
+
+.mobile{
+    background-color: #f29d32;
+}
+
+.web{
+    background-color: #d863a1;
+}
+
+.sales{
+    background-color: #b0c926;
 }
